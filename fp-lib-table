@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "solder jumper")(type KiCad)(uri "$(KIPRJMOD)/solder jumper.pretty")(options "")(descr ""))
-  (lib (name header_1)(type KiCad)(uri "$(KIPRJMOD)/header_1.pretty")(options "")(descr ""))
-)
