@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:busblaster-to-swd-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -249,4 +250,29 @@ Wire Wire Line
 	4100 3900 4850 3900
 Text Label 4200 3900 0    60   ~ 0
 RTCK
+$Comp
+L R R101
+U 1 1 590555B6
+P 6500 2600
+F 0 "R101" V 6580 2600 50  0000 C CNN
+F 1 "1k" V 6500 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6430 2600 50  0001 C CNN
+F 3 "" H 6500 2600 50  0001 C CNN
+	1    6500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2900 6500 2900
+Wire Wire Line
+	6500 2900 6500 2750
+Connection ~ 6150 2900
+Wire Wire Line
+	6500 2450 6500 2300
+Wire Wire Line
+	6500 2300 4450 2300
+Wire Wire Line
+	4450 2300 4450 2700
+Connection ~ 4450 2700
+Text Notes 6700 2600 0    60   ~ 0
+Optional SWCLK pullup
 $EndSCHEMATC
