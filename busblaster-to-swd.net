@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/irees/Projects/busblaster-to-swd/busblaster-to-swd.sch)
-    (date "Sunday, 30 April 2017 'pmt' 01:02:10 pm")
+    (date "Wednesday, 03 May 2017 'pmt' 02:42:39 pm")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
