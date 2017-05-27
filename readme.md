@@ -3,11 +3,6 @@ JTAG adapter: 20-pin ARM to Cortex SWD w/ 10-pin 0.05" or 6-pin Tag Connect
 
 Gerber files have been confirmed to work for basic SWD programming via the Tag Connect header.
 
-TODO in next version:
-
-  * For some reason, I didn't connect the SWO to the Tag Connect...
-  * Pullup resistor footprint is hard to get to when shrouded headers are used
-
 The repo started out as a "universal adapter", which became somewhat intractable.
 However, in that attempt I accumulated a few JTAG pinout links:
 

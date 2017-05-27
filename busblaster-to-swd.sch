@@ -71,7 +71,6 @@ Text Label 4550 2700 0    60   ~ 0
 Vtarget
 Text Label 4550 2900 0    60   ~ 0
 GND
-NoConn ~ 5350 2900
 Text Label 5400 2700 0    60   ~ 0
 TMS/SWDIO
 Text Label 5400 2800 0    60   ~ 0
@@ -172,16 +171,16 @@ Wire Wire Line
 	6050 3600 5350 3600
 Wire Wire Line
 	6150 3700 5350 3700
-Text Label 5500 3800 0    60   ~ 0
+Text Label 5400 2900 0    60   ~ 0
 SWO/TDO
 Wire Wire Line
 	3400 3400 2950 3400
 Wire Wire Line
 	2950 3400 2950 4400
 Wire Wire Line
-	2950 4400 5900 4400
+	5900 4400 2950 4400
 Wire Wire Line
-	5900 4400 5900 3800
+	5900 2900 5900 4400
 Wire Wire Line
 	5900 3800 5350 3800
 Text Label 5550 3900 0    60   ~ 0
@@ -275,4 +274,7 @@ Wire Wire Line
 Connection ~ 4450 2700
 Text Notes 6700 2600 0    60   ~ 0
 Optional SWCLK pullup
+Wire Wire Line
+	5350 2900 5900 2900
+Connection ~ 5900 3800
 $EndSCHEMATC
