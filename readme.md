@@ -3,6 +3,8 @@ JTAG adapter: 20-pin ARM to Cortex SWD w/ 10-pin 0.05" or 6-pin Tag Connect
 
 Gerber files have been confirmed to work for basic SWD programming via the Tag Connect header.
 
+Available from my DirtyPCBs shop: http://dirtypcbs.com/store/designer/details/9294/3545/busblaster-to-swd-gerbers-zip
+
 The repo started out as a "universal adapter", which became somewhat intractable.
 However, in that attempt I accumulated a few JTAG pinout links:
 
